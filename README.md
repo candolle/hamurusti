@@ -15,3 +15,5 @@ Compile the program with `cargo run` or `cargo build`.
 This is a text-based game that runs in the terminal. The game will ask you questions that you must answer to make decisions about your kingdom.
 
 Press <kbd>Ctrl</kbd> + <kbd>c</kbd> to quit at any time.
+
+If you enjoy this sort of thing, you may also like [Santa Rustavia](https://github.com/candolle/santarustavia), a similar port of 1978's [Santa Paravia en Fiumaccio](https://en.wikipedia.org/wiki/Santa_Paravia_en_Fiumaccio) to Rust.
