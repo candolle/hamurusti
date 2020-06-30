@@ -6,13 +6,15 @@ use rand::{Rng, thread_rng};
 use std::{error::Error, io};
 use textwrap::{fill, termwidth};
 
+const VERSION: Option<&'static str> = option_env!("CARGO_PKG_VERSION");
+
 fn play() -> Result<(), Box<dyn Error>> {
 
     let mut rng = thread_rng();
 
-    interact::print_width("\n    HAMURUSTI\n\
+    interact::print_width(&format!("\n\tHAMURUSTI (v{})\n\
         \nTry your hand at governing Ancient Sumeria successfully for a \
-        ten-year term of office.");
+        ten-year term of office.", VERSION.unwrap_or("")));
 
     let mut city = City::new();
 
