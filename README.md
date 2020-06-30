@@ -8,9 +8,9 @@ Hamurusti is an homage to one of the first strategy video games, *Hamurabi*, wri
 
 You play the ruler of an ancient kingdom. You have ten years to defend and grow your population, defending them against poor harvest, plague and rat infestations.
 
-You will need Rust installed. The easiest way to do that is [rustup](https://rustup.rs/).
+You will need Rust installed to compile the program. The easiest way to install Rust is [rustup](https://rustup.rs/).
 
-Compile the program with `cargo run` or `cargo build`.
+Compile the program with `cargo build` or compile and build in one step with `cargo run`.
 
 This is a text-based game that runs in the terminal. The game will ask you questions that you must answer to make decisions about your kingdom.
 
